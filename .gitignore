@@ -1,0 +1,49 @@
+# PyCharm / IDE
+.idea/
+*.iml
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Test & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment / Secrets
+.env
+.env.local
+
+# Model & Data dosyaları (LLM projeleri için kritik!)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+*.onnx
+data/
+datasets/
+models/
+checkpoints/
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
